@@ -65,7 +65,7 @@ public class TestZ extends BaseZ{
 	}
 	@AfterMethod
 	public void logoutApp() {
-		Reporter.log("logout the application",true);
+		Reporter.log("logout from the application",true);
 	}
 	@AfterClass
 	public void closeBrowser() {
